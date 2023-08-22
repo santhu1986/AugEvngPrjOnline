@@ -1,0 +1,5 @@
+RoleName###RoleType###Results
+citiAsstmanager###E
+citicashier###E
+citiGenmanager###E
+citimanager###E
