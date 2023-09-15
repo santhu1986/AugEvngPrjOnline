@@ -23,7 +23,7 @@ public class RanfordHP
 	public void Login() throws InterruptedException 
 	{
       Uname.sendKeys("Admin");
-      Pswd.sendKeys("TestingMindq");
+      Pswd.sendKeys("Admin");
       Thread.sleep(3000);
       Lgn.click();
 	}

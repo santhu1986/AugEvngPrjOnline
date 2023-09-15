@@ -20,27 +20,24 @@ public class Sgrid
 	 @Test
 	public void Gd(String Br) throws MalformedURLException, InterruptedException
 	{
-		 
-		 if (Br.equalsIgnoreCase("firefox")) 
+		 if (Br.equalsIgnoreCase("firefox"))
 		 {
 			 Cap=new DesiredCapabilities();
 		     Cap.setBrowserName("firefox");
 		     Cap.setPlatform(Platform.WINDOWS);
-		     	
-		}
+		 }
 		 else if (Br.equalsIgnoreCase("chrome"))
 		 {
 			 Cap=new DesiredCapabilities();
 		     Cap.setBrowserName("chrome");
 		     Cap.setPlatform(Platform.ANY);
-		     	
 		}
-			 
-	     
-	     RemoteWebDriver driver=new RemoteWebDriver(new URL("http://192.168.41.1:4444/wd/hub"),Cap);
+		 
+		
+	 RemoteWebDriver driver=new RemoteWebDriver(new URL("http://192.168.41.1:4444/wd/hub"),Cap);
 	     
 	     driver.manage().window().maximize();
-		 driver.get("http://103.211.39.246/ranford2");
+		 driver.get("http://192.168.1.4/ranford2");
 			
 			//Admin Login
 			
